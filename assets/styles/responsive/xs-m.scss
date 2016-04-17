@@ -1,0 +1,222 @@
+header
+{
+	position: relative;
+	text-align: center;
+}
+
+.logo
+{
+	display: block;
+}
+
+.menu
+{
+	position : absolute;
+	left     : 0;
+	top      : 0;
+
+	margin: 0;
+
+	// uncomment for dropdown menu
+	// background-color: white;
+
+	// box-shadow : 0 3px 20px rgba(0, 0, 0, 0.05);
+
+	// display: none !important;
+
+	// uncomment for dropdown menu
+	// border-width : 1px;
+	// border-style : solid;
+	// border-color : transparent;
+
+
+	// uncomment for dropdown menu
+	// // prevent white background showing through the transparent border
+	// // http://stackoverflow.com/questions/7473200/transparent-border-expands-background-color-image
+	// background-clip: padding-box;
+	// // for Safari
+	// -webkit-background-clip: padding-box;
+
+	// // uncomment for dropdown menu
+	// max-height : 0;
+	// overflow   : hidden;
+
+	// // uncomment for dropdown menu
+	// transition: all 100ms ease-out;
+
+	> li
+	{
+		display: block !important;
+
+		&:first-child
+		{
+			padding-top    : 2 * $menu-item-compact-vertical-padding;
+		}
+
+		&:last-child
+		{
+			padding-bottom : 2 * $menu-item-compact-vertical-padding;
+		}
+	}
+}
+
+.menu-item
+{
+	display : block !important;
+	border  : none;
+
+	margin : 0;
+
+	padding-top:    $menu-item-compact-vertical-padding;
+	padding-bottom: $menu-item-compact-vertical-padding;
+
+	padding-left  : 0.7em;
+	padding-right : 1.0em;
+}
+
+.menu-shown
+{
+	// display: block !important;
+
+	// uncomment for dropdown menu
+	// box-shadow : 0 3px 20px rgba(0, 0, 0, 0.05);
+
+	// uncomment for dropdown menu
+	// border-width : 1px;
+	// border-style : solid;
+	// border-color : #e7e7e7;
+
+	// transition: all 130ms ease-out;
+}
+
+.language
+{
+	margin-top: 0.25em;
+	margin-right: 1em;
+
+	&, .dropdown-item-list li, .dropdown-item, .dropdown-item-selected
+	{
+		line-height: 0;
+	}
+
+	.dropdown-item
+	{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.dropdown-item-label
+	{
+		display: none;
+	}
+
+	.dropdown-item-icon > img
+	{
+		margin: 0 !important;
+	}
+
+	.dropdown-arrow
+	{
+		margin-bottom : 0.25em !important;
+	}
+}
+
+.menu-button
+{
+	position : absolute;
+	display : block;
+
+	top  : 0.18em;
+	left : 0.4em;
+
+	padding: 0.6em;
+}
+
+.menu-icon
+{
+	position: relative;
+	// padding-left: 1.25em;
+	width: 1em;
+	height: 1em;
+}
+
+.menu-icon:before
+{
+	content: "";
+
+	position: absolute;
+
+	top  : 0.2em;
+	left : 0;
+
+	width: 1em;
+	height: 0.125em;
+
+	border-top    : 0.375em double;
+	border-bottom : 0.125em solid;
+}
+
+.page
+{
+	background : white;
+	box-shadow : 0 0 0.35em rgba(0, 0, 0, 1);
+
+	// when adjusting this transition time also adjust it in pages/layout.js
+	transition-property        : transform;
+	transition-timing-function : ease-out;
+
+	transform  : translate3d(0px, 0px, 0px);
+}
+
+.menu
+{
+	background: #505050;
+}
+
+.menu
+{
+	color: #dfdfdf;
+	min-height: 100%;
+
+	position : fixed;
+	left     : 0;
+	top      : 0;
+	bottom   : 0;
+
+	overflow-y: auto;
+}
+
+.menu-item:active
+{
+	color: #efefef;
+}
+
+.layout-with-page-aside
+{
+	overflow-x: hidden;
+}
+
+.page
+{
+	min-width: 100%;
+}
+
+.menu
+{
+	display: none;
+}
+
+// .menu-collapsible
+// {
+// 	display: block;
+// }
+
+// .menu-collapsible
+// {
+// 	display: none;
+// }
+
+.menu-shown
+{
+	display: block
+}

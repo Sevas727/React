@@ -1,0 +1,734 @@
+
+.FutureEvents {
+background: black;
+}
+
+.FutureEvents-container {
+margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+}
+
+.FutureEvents-container-left {
+  width: 100%;
+  max-width: 925px;
+  position: relative;
+  left:0; 
+      padding: 0 0 139px 0;
+}
+.FutureEvents .menu {
+    z-index: 2;
+    position: relative;
+    height: 45px;
+    width: 100%;
+}
+
+.FutureEvents .menu a:nth-of-type(1) {
+position: absolute;
+    left: 16px;
+    top: 15px;
+}
+
+.FutureEvents .menu a:nth-of-type(2) {
+      position: absolute;
+       left: 63px;
+    top: 15px;
+}
+
+.FutureEvents-title {
+color: #fff;
+font-size: 12px;
+font-weight: 400;
+line-height: 13px;
+width: 652px;
+position: relative;
+background: black url(../images/FutureEvents-background.jpg) -31px -1px no-repeat;
+    margin: 56px auto 0 auto;
+height: 420px;
+}
+
+.FutureEvents-title-container {
+    position: absolute;
+    bottom: 31px;
+    right: 65px;
+}
+.FutureEvents-title h3 {
+  text-align: right;
+color: #fdd11d;
+font-size: 17px;
+font-weight: 400;
+line-height: 32.25px;
+    margin: 0;
+}
+
+div.FutureEvents-title h1 {
+  text-align: right;
+  padding: 0 0 0 0;
+margin: 0px 0 0 0;
+color: #fff;
+    font-size: 32px;
+font-weight: 400;
+line-height: 32px;
+}
+
+.FutureEvents-title h2 {
+  text-align: right;
+  padding: 0 0 0 0;
+    margin: 15px 0 6px 0;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+}
+.FutureEvents-title h5 {
+  text-align: right;
+  padding: 0 0 0 0;
+margin: 0px 0 0 0;
+font-size: 10px;
+font-weight: 400;
+line-height: 11.73px;
+color: #828282;
+}
+.FutureEvents-content {
+  position: relative;
+  width: 516px;
+padding: 0px 0px 0px 0px;
+    margin: 39px auto 0 auto;
+}
+
+
+.FutureEvents-content p {
+  color: white;
+font-size: 12px;
+font-weight: 400;
+line-height: 21px;
+    margin: 0 0 32px 0;
+}
+
+.FutureEvents-developments h1 {
+color: #747474;
+font-size: 12px;
+font-weight: 400;
+line-height: 13px;
+    padding: 0 0 0 0;
+    margin: 90px 0 24px 0;
+}
+
+.FutureEvents-developments:first-of-type h1 {
+    margin: 0px 0 25px 0;
+}
+
+.FutureEvents-development {
+
+    height: 51px;
+    border-bottom: 1px solid #2c2c2c;
+    padding: 12px 0 0 0;
+}
+
+div.FutureEvents-development:first-of-type {
+border-top: 1px solid #2c2c2c;
+}
+.FutureEvents-face {
+  float: right;
+  background: black url(../images/Developments-face.jpg) 0 0 repeat;
+  border-radius: 50%;
+  width: 43px;
+  height: 42px;
+  margin: -1px 0 0 16px
+}
+.FutureEvents-development p {
+  text-align: right;
+  font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+    padding: 2px;
+    margin: 0;
+    color: white;
+}
+p.FutureEvents-date {
+      float: left;
+   color: #ffdb47;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 0px 0px 0 0;
+    margin: 0 0 0 0;
+
+}
+
+p.FutureEvents-city {
+      float: left;
+    padding: 8px 0 0 0;
+    margin: 0 0 0 0;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.73px;
+    color: #828282;
+}
+
+.FutureEvents-allDevelopments {
+    display: block;
+    float: right;
+    width: 140px;
+    height: 23px;
+    border: 1px solid #f5db80;
+    border-radius: 30px;
+    color: #f5db80;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+    text-align: center;
+    padding: 9px 0 0 0;
+    margin: 13px -2px 0 0;
+}
+
+
+
+.FutureEvents-social a {
+display: block;
+display: inline-block;
+    width: 54px;
+    height: 21px;
+    border: 1px solid #313131;
+
+    border-radius: 30px;
+    color: #828282;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+    text-align: center;
+padding: 10px 0 0 10px;
+    margin: 12px 3px 0 0;
+}
+
+.FutureEvents-social a:first-of-type {
+  background: black url(../images/AllEvents-social-icon.png) 12px 10px no-repeat;
+}
+
+.FutureEvents-social a:nth-of-type(2) {
+  background: black url(../images/AllEvents-social-icon.png) -58px 9px no-repeat;
+}
+.FutureEvents-social a:nth-of-type(3) {
+  background: black url(../images/AllEvents-social-icon.png) -128px 9px no-repeat;
+}
+
+.FutureEvents-right-menu {
+position: absolute;
+        width: 275px;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: #fdc937;
+}
+
+.FutureEvents-right-menu h2 {
+    text-align: right;
+    position: absolute;
+    right: 30px;
+        top: 87px;
+color: black;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+}
+
+.FutureEvents-right-menu h1 {
+      font-size: 2em;
+    margin: 0.67em 0;
+    text-align: right;
+    width: 200px;
+    position: absolute;
+    right: 28px;
+    top: 104px;
+    line-height: 33px;
+}
+
+.FutureEvents-right-menu h3 {
+    margin: 0.67em 0;
+    text-align: right;
+    width: 200px;
+    position: absolute;
+    right: 32px;
+    top: 146px;
+    font-size: 14px;
+font-weight: 400;
+line-height: 32px;
+}
+.FutureEvents-right-menu a {
+  display: block;
+  height: 63px;
+    margin: 0 0 1px 11px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #c7a133;
+    background: url(../images/AllEvents-right-arrow.png) 221px 27px no-repeat;
+  }
+
+.FutureEvents-right-menu a:first-of-type {
+  margin-top: 279px;
+  }
+
+  .FutureEvents-right-menu a:nth-of-type(2) {
+background: url(../images/FutureEvent-+.png) 221px 27px no-repeat;
+  }
+
+.FutureEvents-right-menu a span {
+  position: relative;
+    top: 20px;
+    left: 13px;
+font-size: 13px;
+font-weight: bold;
+line-height: 16px;
+  }
+
+  .FutureEvents-allVideos {
+    display: block;
+    width: 140px;
+    height: 22px;
+    border: 1px solid #f5db80;
+    border-radius: 30px;
+    color: #f5db80;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+    text-align: center;
+    padding: 9px 0 0 0;
+margin: 21px 0px 0 0;
+}
+
+  .FutureEvents-allVideos:nth-of-type(2) {
+    padding: 9px 0 0 0;
+margin: 8px 0px 0 0;
+}
+
+.FutureEvents-right-menu-line {
+  display: none;
+      position: absolute;
+    background-color: #D9B32D;
+    opacity: 1;
+    top: 64px;
+    width: 100%;
+    z-index: 3;
+    height: 1.1px;
+}
+
+.FutureEvents-right-menu-arrow {
+  background: url(../images/circle_black_buttom_arrow.png) 0px 0px no-repeat;
+width: 68px;
+height: 68px;
+position: absolute;
+    right: 22px;
+    top: 140px;
+  display: none;
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+.FutureEvents-container-left {
+  width: 77%;
+}
+
+.FutureEvents-right-menu {
+  width: 23%;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+.FutureEvents-container-left {
+  width: 100%;
+      margin: 308px auto 0 auto;
+}
+
+.FutureEvents-right-menu {
+  width: 100%;
+  position: absolute;
+  top: -308px;
+      left:0;
+    height: 308px;
+    background: #fdc937 url(../images/open_Russia_Black.png) 26px 26px no-repeat;
+}
+
+.FutureEvents-right-menu a {
+  display: none;
+}
+
+.FutureEvents-right-menu h1 {
+    text-align: left;
+    width: 300px;
+     font-family: "Graphik LCG-Black";
+         top: 117px;
+    font-size: 39px;
+    line-height: 43px;
+    left: 88px;
+    letter-spacing: 1px;
+}
+
+.FutureEvents-right-menu h2 {
+top: 94px;
+left: 89px;
+    text-align: left;
+        font-size: 19px;
+    letter-spacing: 2px;
+}
+
+.FutureEvents-right-menu h3 {
+    margin: 0.67em 0;
+    text-align: right;
+    width: 200px;
+    position: absolute;
+    right: 32px;
+    top: 170px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    left: -38px;
+}
+
+
+.FutureEvents-right-menu-arrow {
+  display: block;
+top: 116px;
+    right: 30px;
+    display: block;
+}
+
+.FutureEvents-right-menu-line {
+   display: block; 
+}
+
+.FutureEvents-container-left .menu{
+  display: none;
+}
+
+.FutureEvents-title {
+  background-size: cover;
+  background-position: 0 0;
+  width: 100%;
+}
+
+
+.FutureEvents-content {
+width: 80%;
+}
+
+.FutureEvents-content p {
+      font-size: 15px;
+}
+
+.FutureEvents-social a {
+    display: block;
+    float: left;
+    width: 68px;
+    height: 28px;
+    border: 1px solid #313131;
+    border-radius: 30px;
+    color: #828282;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 0 0 18px;
+    margin: 0px 5px 0 3px;
+}
+
+.FutureEvents-social a:first-of-type {
+  background: black url(../images/AllEvents-social-icon.png) 8px 14px no-repeat;
+    background-size: 230px;
+    height: 26px;
+}
+
+.FutureEvents-social a:nth-of-type(2) {
+  background: black url(../images/AllEvents-social-icon.png) -96px 12px no-repeat;
+    background-size: 230px;
+    height: 26px;
+}
+.FutureEvents-social a:nth-of-type(3) {
+  background: black url(../images/AllEvents-social-icon.png) -197px 13px no-repeat;
+    background-size: 230px;
+    height: 26px;
+}
+
+.FutureEvents-developments h1 {
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin: 0px 0px 25px 28px;
+}
+
+.FutureEvents-development {
+    border-bottom: 1px solid #313131;
+    height: 97px;
+    padding: 12px 0 0 20px;
+    font-family: "Graphik LCG";
+    position: relative;
+}
+
+.FutureEvents-developments {
+      margin: 160px 0 0 0;
+}
+div.FutureEvents-development:first-of-type {
+border-top: 1px solid #313131;
+    height: 98px;
+}
+
+.FutureEvents-face {
+      background-position:  0 0;
+    background-size: 100% 100%;
+    width: 65px;
+    height: 65px;
+    margin: 10px 0 0 16px;
+}
+
+div.FutureEvents-development p.FutureEvents-date {
+    padding: 0px 0 0 0;
+  font-family: "Graphik LCG";
+    float: left;
+    text-align: left;
+        margin: 14px 0 0 0px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.FutureEvents-development p {
+margin: 14px 0 0 0;
+    font-family: "Graphik LCG-Black";
+    font-size: 18px;
+    text-align: right;
+    padding: 0 0px 0 0;
+    line-height: 14px;
+}
+
+p.FutureEvents-city {
+    padding: 2px 102px 0 0;
+    font-size: 13px;
+    text-align: left;
+    margin: 8px 0 0 0;
+    top: 41px;
+    position: absolute;
+    float: none;
+}
+
+.FutureEvents-development p:nth-of-type(4) {
+   width: 340px;
+    float: right;
+    line-height: 23px;
+    padding: 0 0 0 0;
+    margin: 4px 0 0 0;
+    font-size: 15px;
+    text-align: right;
+        font-family: "Graphik LCG";
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+.FutureEvents-container-left {
+  width: 100%;
+      margin: 308px auto 0 auto;
+}
+
+.FutureEvents-right-menu {
+  width: 100%;
+  position: absolute;
+  top: -308px;
+      left:0;
+    height: 308px;
+    background: #fdc937 url(../images/open_Russia_Black.png) 26px 26px no-repeat;
+}
+
+.FutureEvents-right-menu a {
+  display: none;
+}
+
+.FutureEvents-right-menu h1 {
+    text-align: left;
+    width: 300px;
+     font-family: "Graphik LCG-Black";
+         top: 134px;
+    font-size: 21px;
+    line-height: 43px;
+    left: 25px;
+    letter-spacing: 1px;
+}
+
+.FutureEvents-right-menu h2 {
+    top: 111px;
+    left: 25px;
+    text-align: left;
+        font-size: 19px;
+    letter-spacing: 2px;
+}
+
+.FutureEvents-right-menu h3 {
+    margin: 0.67em 0;
+    text-align: right;
+    width: 200px;
+    position: absolute;
+    right: 32px;
+    top: 173px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    left: -101px;
+}
+
+.FutureEvents-title-container {
+right: 65px;
+    left: 24px;
+    width: 100%;
+}
+
+.FutureEvents-title h3 {
+  text-align: left;
+  font-family: "Minion medium";
+}
+
+div.FutureEvents-title h1 {
+  text-align: left;
+  font-family: "Minion medium";
+}
+
+.FutureEvents-title h2 {
+  text-align: left;
+}
+
+.FutureEvents-title h5 {
+  text-align: left;
+}
+
+.FutureEvents-content {
+margin: 0 auto;
+    width: 90%;
+}
+
+.FutureEvents-right-menu-arrow {
+  display: block;
+    top: 135px;
+    right: 4px;
+    display: block;
+}
+
+.FutureEvents-right-menu-line {
+   display: block; 
+}
+
+.FutureEvents-container-left .menu{
+  display: none;
+}
+
+.FutureEvents-title {
+    width: 100%;
+    background-position: 0 0;
+}
+
+.FutureEvents-developments h1 {
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin: 0px 0px 25px 15px;
+}
+
+.FutureEvents-development {
+    border-bottom: 1px solid #313131;
+    height: 161px;
+    padding: 12px 0 0 20px;
+    font-family: "Graphik LCG";
+    position: relative;
+}
+
+.FutureEvents-developments {
+      margin: 204px 0 0 0;
+}
+div.FutureEvents-development:first-of-type {
+border-top: 1px solid #313131;
+    height: 161px;
+}
+
+.FutureEvents-face {
+      background-position:  0 0;
+    background-size: 100% 100%;
+    width: 65px;
+    height: 65px;
+    margin: 10px 0 0 16px;
+}
+
+div.FutureEvents-development p.FutureEvents-date {
+    padding: 0px 0 0 0;
+    font-size: 16px;
+    font-family: "Graphik LCG-Black";
+    float: none;
+    margin: 12px 0 0 0;
+    text-align: left;
+}
+
+.FutureEvents-development p {
+margin: 47px 0 0 0;
+    font-family: "Graphik LCG-Black";
+    font-size: 17px;
+    text-align: left;
+    padding: 0 102px 0 0;
+    line-height: 14px;
+}
+
+p.FutureEvents-city {
+    padding: 0 102px 0 0;
+    font-size: 15px;
+    text-align: left;
+    margin: 8px 0 0 0;
+    top: 41px;
+    position: absolute;
+    float: none;
+}
+
+.FutureEvents-development p:nth-of-type(4) {
+    margin: 7px 0 0 0;
+    line-height: 22px;
+    width: 100%;
+    font-size: 15px;
+    text-align: left;
+        font-family: "Graphik LCG";
+}
+
+.FutureEvents-social a {
+    display: block;
+    float: left;
+    width: 68px;
+    height: 28px;
+    border: 1px solid #313131;
+    border-radius: 30px;
+    color: #828282;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 0 0 18px;
+    margin: 0px 0px 0 2px;
+}
+
+.FutureEvents-social a:first-of-type {
+  background: black url(../images/AllEvents-social-icon.png) 8px 14px no-repeat;
+    background-size: 230px;
+    height: 26px;
+}
+
+.FutureEvents-social a:nth-of-type(2) {
+  background: black url(../images/AllEvents-social-icon.png) -96px 12px no-repeat;
+    background-size: 230px;
+    height: 26px;
+}
+.FutureEvents-social a:nth-of-type(3) {
+  background: black url(../images/AllEvents-social-icon.png) -197px 13px no-repeat;
+    background-size: 230px;
+    height: 26px;
+}
+
+
+}

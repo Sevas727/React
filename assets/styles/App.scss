@@ -1,0 +1,55 @@
+/* @import '../../../node_modules/normalize.css/normalize.css';
+
+/*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
+
+/*
+ * Base styles
+ * ========================================================================== */
+
+@font-face {
+    font-family: "Graphik LCG";
+      src: url("../fonts/GraphikLCG-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Graphik LCG-Black";
+      src: url("../fonts/Graphik LCG-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Garamond NarrowC-Light";
+      src: url("../fonts/GaramondNarrowC-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Graphik LCG-Light";
+      src: url("../fonts/Graphik LCG-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Minion medium";
+      src: url("../fonts/Minionmedium-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Minion-Regular";
+      src: url("../fonts/Minion-Regular.otf") format("opentype");
+}
+
+html {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+  font-family: "Graphik LCG";
+	    margin: 0;
+    padding: 0;
+        overflow-x: hidden;
+}
+
+img {
+  border:0px;
+}

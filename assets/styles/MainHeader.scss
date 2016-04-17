@@ -1,0 +1,406 @@
+
+
+@font-face {
+    font-family: "GraphikLCG-Regular";
+      src: url("../fonts/Graphik LCG-Black.otf") format("opentype");
+}
+
+.MainHeader {
+background-image: radial-gradient(1036px 1036px at 49.67% 100.44%, #fa7d51 0%, #e05b36 55%, #740101 100%);
+width: 100%;
+font-family: "Graphik LCG-Black";
+}
+
+.MainHeader-menu-line {
+    position: absolute;
+    background-color: #FFFFFF;
+    opacity: 0.15;
+        top: 47px;
+    width: 100%;
+    z-index: 3;
+    height: 1px;
+}
+
+.MainHeader .MainHeader-menu {
+    z-index: 2;
+    position: absolute;
+    height: 47px;
+    width: 100%;
+}
+
+.MainHeader .MainHeader-menu a:nth-of-type(1) {
+position: absolute;
+    left: 18px;
+    top: 20px;
+}
+
+.MainHeader .MainHeader-menu a:nth-of-type(2) {
+      position: absolute;
+    left: 55px;
+    top: 18px;
+}
+.MainHeader .MainHeader-menu a:nth-of-type(3) {
+    display: block;
+    width: 125px;
+    height: 18px;
+    border: 1px solid #ffcd00;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+    text-align: center;
+    padding: 9px 3px 0 0;
+    position: absolute;
+    right: 20px;
+    top: 11px;
+        letter-spacing: 1px;
+
+}
+.MainHeader-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    overflow: hidden; 
+    height: 862px;
+}
+
+.MainHeader-container h1 {
+position: absolute;
+font-family: "Minion medium";
+left: -155px;
+font-size: 17px;
+font-weight: bold;
+top: -5px;
+line-height: 1.2;
+letter-spacing: 1px;
+}
+
+
+.MainHeader-mainHeader-container {
+      position: absolute;
+    left: 340px;
+    width: 100%;
+    bottom: 48px;
+    z-index: 2;
+}
+.MainHeader-mainHeader {
+    height: 51px;
+    border-bottom: 1px solid rgba(93, 1, 1, 0.37);
+    padding: 11px 0 0 0;
+     z-index: 1;
+     background: url(../images/feedback_arrow.png) 11px 22px no-repeat;
+     position: relative;
+}
+
+.MainHeader-mainHeader-background {
+      position: absolute;
+    left: 43px;
+    z-index: 1;
+    top: 0px;
+}
+
+.MainHeader-mainHeader-background-logo {
+    position: absolute;
+    left: 225px;
+    top: 192px;
+    z-index: 2;
+}
+
+h1.MainHeader-mainHeader-background-title {
+        font-family: "Graphik LCG-Black";
+    color: #FFF;
+    font-size: 41px;
+    left: 336px;
+    top: 160px;
+    z-index: 1;
+    width: 700px;
+    letter-spacing: 2.7px;
+}
+
+.MainHeader-mainHeader-container-firstLine {
+      color: rgba(93, 1, 1, 0.37); /*для IE */
+    background-color:rgba(93, 1, 1, 0.37); /*для Firefox, Opera, Safari*/
+    border:0px none;
+    height:1px; /* высота 1px IE, Firefox, Opera, Safari */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    left: 340px;
+    width: 100%;
+    bottom: 425px;
+}
+
+.MainHeader-mainHeader-container-secondLine {
+      color: rgba(93, 1, 1, 0.37); /*для IE */
+    background-color:rgba(93, 1, 1, 0.37); /*для Firefox, Opera, Safari*/
+    border:0px none;
+    height:1px; /* высота 1px IE, Firefox, Opera, Safari */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    left: 340px;
+    width: 100%;
+    bottom: 358px;
+}
+
+div.MainHeader-mainHeader:first-of-type {
+    height: 51px;
+    border: 0px;
+    padding: 12px 0 0 0;
+}
+
+
+div.MainHeader-mainHeader:last-of-type {
+
+}
+
+.MainHeader-mainHeader a {
+  display: block;
+  text-decoration: none;
+position: absolute;
+    text-align: left;
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    top: 5px;
+    line-height: 16px;
+    text-transform: uppercase;
+    top: 22px;
+    left: 38px;
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  
+.MainHeader-container {
+    max-width: 992px;
+    height: 862px;
+}
+
+.MainHeader-mainHeader-background {
+
+    left: 0px;
+    width: 100%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+.MainHeader-container {
+    height: 872px;
+
+}
+
+.MainHeader-menu-line {
+    top: 57px;
+}
+.MainHeader .MainHeader-menu a:nth-of-type(1) {
+    left: 14px;
+    top: 18px;
+}
+
+
+.MainHeader .MainHeader-menu a:nth-of-type(1) img {
+        width: 24px;
+}
+
+.MainHeader .menu a:nth-of-type(2) {
+    left: 67px;
+    top: 16px;
+}
+
+.MainHeader .MainHeader-menu a:nth-of-type(2) img {
+        width: 162px;
+}
+
+.MainHeader .MainHeader-menu a:nth-of-type(3) {
+    width: 171px;
+    height: 21px;
+    font-size: 12px;
+    padding: 13px 3px 0 0;
+    right: 15px;
+    top: 7px;
+}
+
+.MainHeader-mainHeader-background {
+
+    left: 0px;
+    width: 100%;
+}
+
+.MainHeader-mainHeader-background-logo {
+    position: absolute;
+    left: 13%;
+    top: 13%;
+    width: 8%;
+    z-index: 1;
+}
+
+
+.MainHeader-container h1 {
+    display: none;
+}
+
+h1.MainHeader-mainHeader-background-title {
+    display: block;
+    font-size: 31px;
+    left: 23%;
+    top: 10%;
+    width: 600px;
+}
+
+
+.MainHeader-mainHeader-container {
+    position: absolute;
+    left: 52px;
+    width: 100%;
+    bottom: 109px;
+    z-index: 2;
+
+
+}
+
+.MainHeader-mainHeader a {
+    font-size: 18px; 
+    top:35px;  
+    left: 53px; 
+}
+
+.MainHeader-mainHeader {
+    height: 75px;
+background: url(../images/feedback_arrow.png) 19px 36px no-repeat;
+    }
+
+div.MainHeader-mainHeader:first-of-type {
+    height: 75px;
+}
+
+.MainHeader-mainHeader-container-firstLine { 
+    left: 52px;
+    bottom: 548px;
+}
+
+
+.MainHeader-mainHeader-container-secondLine {
+        left: 52px;
+        
+        bottom: 637px;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+.MainHeader-container {
+    height: 900px;
+
+}
+
+.MainHeader-menu-line {
+top:67px;
+}
+.MainHeader .MainHeader-menu a:nth-of-type(1) {
+    left: 28px;
+    top: 27px;
+}
+
+
+.MainHeader .MainHeader-menu a:nth-of-type(1) img {
+    width: 23px;
+}
+
+.MainHeader .MainHeader-menu a:nth-of-type(2) {
+ left: 79px;
+    top: 24px;
+}
+
+.MainHeader .MainHeader-menu a:nth-of-type(2) img {
+            width: 166px;
+}
+
+.MainHeader .MainHeader-menu a:nth-of-type(3) {
+display: none;
+}
+
+.MainHeader-mainHeader-background {
+    left: -335px;
+    top: 38px;
+    width: auto;
+}
+
+.MainHeader-mainHeader-background-logo {
+    left: 43px;
+    top: 133px;
+        width: 66px;
+    height: 66px;
+}
+
+
+
+.MainHeader-container h1 {
+    display: none;
+}
+
+h1.MainHeader-mainHeader-background-title {
+display: block;    
+    width: 241px;
+    left: 43px;
+        top: 200px;
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.MainHeader-mainHeader-container {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    bottom: 0px;
+    z-index: 2;
+
+
+}
+
+.MainHeader-mainHeader a {
+    font-size: 14px;
+    top: 34px;
+    left: 60px;
+}
+
+.MainHeader-mainHeader {
+    height: 75px;
+background: url(../images/feedback_arrow.png) 23px 33px no-repeat;
+    background-size: 17px;
+    }
+
+div.MainHeader-mainHeader:first-of-type {
+    height: 75px;
+}
+
+.MainHeader-mainHeader-container-firstLine { 
+    left: 0px;
+    bottom: 439px;
+}
+
+
+.MainHeader-mainHeader-container-secondLine {
+        left: 0px;  
+        bottom: 528px;
+}
+
+
+
+
+
+}

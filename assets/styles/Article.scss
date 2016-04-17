@@ -1,0 +1,458 @@
+
+.Article {
+background: #f3f3f3;
+}
+
+.Article-container {
+margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+      background: #f3f3f3;
+
+}
+
+.Article-container-left {
+max-width: 784px;
+  width: 100%;
+    position: relative;
+    margin: 0 auto;
+  background: #fff;
+      border-bottom: 1px solid #E9E9E9;
+}
+.Article .menu {
+    z-index: 2;
+    position: relative;
+    height: 48px;
+    width: 100%;
+  background: #901c1c;
+
+}
+
+.Article .menu a:nth-of-type(1) {
+position: absolute;
+    left: 16px;
+    top: 11px;
+}
+
+.Article .menu a:nth-of-type(2) {
+      position: absolute;
+left: 61px;
+    top: 11px;
+}
+
+
+.Article-social {
+  height: 49px;
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.Article-social a {
+    display: inline-block;
+    width: 54px;
+    height: 21px;
+    border: 1px solid #E9E9E9;
+    border-radius: 30px;
+    color: #828282;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0 0 10px;
+    margin: 9px -9px 0 13px;
+}
+
+.Article-social a:first-of-type {
+  background: white url(../images/Activity-icons.png) 12px 10px no-repeat;
+}
+
+.Article-social a:nth-of-type(2) {
+  background: white url(../images/Activity-icons.png) -58px 9px no-repeat;
+}
+.Article-social a:nth-of-type(3) {
+  background: white url(../images/Activity-icons.png) -128px 9px no-repeat;
+}
+
+.Article-social a:nth-of-type(4) {
+    border-radius: 0px;
+    width: 50px;
+    height: 50px;
+    float: right;
+      background: #ac4040 url(../images/cross.png) 19px 19px no-repeat;
+      padding: 0;
+      margin: 0;
+      border: 0;
+}
+
+.Article-title {
+color: rgba(20, 5, 5, 0.9);
+font-size: 12px;
+font-weight: 400;
+line-height: 13px;
+position: relative;
+margin: 46px auto 26px auto;
+}
+
+
+.Article-title h3 {
+  text-align: left;
+color: #b31719;
+font-size: 12px;
+font-weight: bold;
+line-height: 13px;
+margin: 0 8px 0 0;
+        float: left;
+}
+
+.Article-title h5 {
+  text-align: left;
+  padding: 0 0 0 0;
+margin: 15px 0 10px 0;
+font-size: 10px;
+font-weight: 400;
+line-height: 11.73px;
+color: rgba(20, 5, 5, 0.9);
+}
+
+div.Article-title h1 {
+  text-align: left;
+  padding: 0 0 0 0;
+margin: 0px 0 0 0;
+    font-size: 32px;
+    font-weight: bold;
+line-height: 32px;
+}
+
+.Article-title h2 {
+  text-align: left;
+  padding: 0 0 0 0;
+margin: 1px 0 0 0;
+    font-size: 32px;
+font-weight: 400;
+line-height: 32px;
+}
+
+
+
+.Article-content {
+  position: relative;
+  width: 516px;
+padding: 0px 0px 0px 0px;
+    margin: 0px auto 0 auto;
+}
+
+.Article-content img {
+    margin: 0px auto 24px auto;
+}
+
+.Article-content p {
+color: rgba(20, 5, 5, 0.9);
+font-size: 12px;
+font-weight: 400;
+line-height: 21px;
+    margin: 0 0 110px 0;
+}
+
+.Article-comments {
+    position: relative;
+  width: 784px;
+padding: 0px 0px 135px 0px;
+    margin: 0px auto 0 auto;
+    background-color: #fff;
+
+}
+
+.Article-comments h1 {
+    color: #b31719;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+    margin: 0 0 18px 0;
+    padding: 56px 0 0 0;
+
+}
+
+
+.Article-comments  textarea {
+    resize: vertical;
+    width: 100%;
+    min-height: 81px;
+    margin: 5px 0 5px 0;
+}
+
+.Article-comments form {
+text-align: right;
+}
+.Article-comments form input[type] {
+    border-radius: 30px;
+    width: 99px;
+    height: 33px;
+    text-align: center;
+    color: #9e9e9e;
+    font-size: 14px;
+    background-color: #ececec;
+    border: 0;
+    margin: 5px 0 49px 0;
+}
+
+.Article-comment {
+      padding: 0 0 40px 63px;
+border-top: 1px solid #E9E9E9;
+border-bottom: 1px solid #E9E9E9;
+position: relative;
+}
+.Article-comment-raiting {
+    width: 20px;
+    height: 55px;
+    position: absolute;
+    left: 20px;
+    top: 14px;
+}
+
+.Article-comment-raiting a {
+  display: block;
+  width: 20px;
+  height: 20px;
+      position: absolute;
+
+}
+.Article-comment-raiting a:nth-of-type(1) {
+background: url(../images/Article-arrow.png) 0px 0px no-repeat;
+   top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.Article-comment-raiting a:nth-of-type(2) {
+    top: 21px;
+    left: -2px;
+    font-size: 11px;
+    width: 40px;
+}
+
+.Article-comment-raiting a:nth-of-type(3) {
+background: url(../images/Article-arrow-bottom.png) 0px 0px no-repeat;
+height: 20px;
+    top: 49px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.Article-comment h2 {
+    color: #931012;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 13px;
+    float: left;
+    margin: 13px 0 0 0;
+}
+
+.Article-comment h4 {
+color: #7b7b7b;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: right;
+    margin: 13px 0 5px 0;
+}
+
+.Article-comment p {
+      line-height: 18px;
+      margin: 0 0 0 0; 
+}
+
+.Article-comment-submit {
+  height: 150px;
+}
+.Article-comment form input[type] {
+  border: 1px solid #9e3636;
+  color: #9e3636;
+  background: #fff;
+  float: left;
+      margin: 5px 0 5px 0;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+.Article-social {
+  border:0;
+}
+
+.Article-social a:first-of-type {
+position: absolute;
+bottom: 55px;
+        width: 72px;
+    height: 24px;
+    border: 1px solid rgba(222, 222, 222, 0.98);
+    border-radius: 30px;
+    color: #828282;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+    text-align: center;
+    padding: 18px 0 0 13px;
+    margin: 0px 4px 0 0px;
+    background: white url(../images/Activity-icons.png) 13px 14px no-repeat;
+        left: 12px;
+    background-size: 230px;
+}
+
+.Article-social a:nth-of-type(2) {
+position: absolute;
+bottom: 55px;
+    width: 72px;
+    height: 24px;
+    border: 1px solid rgba(222, 222, 222, 0.98);
+    border-radius: 30px;
+    color: #828282;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+    text-align: center;
+    padding: 18px 0 0 13px;
+    margin: 0px 4px 0 0px;
+    background: white url(../images/Activity-icons.png) -94px 14px no-repeat;
+    background-size: 230px;
+        left: 107px;
+}
+
+.Article-social a:nth-of-type(3) {
+position: absolute;
+bottom: 55px;
+        width: 72px;
+    height: 24px;
+    border: 1px solid rgba(222, 222, 222, 0.98);
+    border-radius: 30px;
+    color: #828282;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+    text-align: center;
+    padding: 18px 0 0 13px;
+    margin: 0px 4px 0 0px;
+    background: white url(../images/Activity-icons.png) -198px 14px no-repeat;
+    background-size: 230px;
+        left: 202px;
+}
+
+.Article-social a:nth-of-type(4) {
+      width: 68px;
+    height: 68px;
+background-position: 27px 27px;
+background-size: 17px;
+z-index: 2;
+    position: absolute;
+    right: 0;
+}
+
+.Article-title h3 {
+font-family: "Graphik LCG-Black";
+    font-size: 16px;
+    float: none;
+    letter-spacing: -1px;
+    margin: 0 0 0 0px;
+
+}
+
+.Article-title h5 {
+    margin: 8px 0 25px -6px;
+}
+
+div.Article-title h1 {
+    color: #b12b2b;
+    font-family: "Minion medium";
+    margin: 26px 0px 0 0px;
+    display: inline;
+}
+
+.Article-title h2 {
+  font-family: "Minion medium";
+display: inline;
+}
+
+.Article-title-container {
+  margin: -63px 0 0 0px;
+      padding: 0 0 0 22px;
+}
+
+.Article-content {
+  width: 100%;
+}
+
+.Article-content img {
+    margin: 0px auto 24px auto;
+    width: 94%;
+    display: block;
+}
+
+.Article-content p {
+width: 94%;
+    margin: 0 auto 110px auto;
+}
+
+.Article-container-left {
+border-bottom: 4px solid #E9E9E9;
+    margin: 0px auto 0 auto;
+}
+
+.Article-comments {
+  width: 92%
+}
+
+.Article-comments h1 {
+font-family: "Minion medium";
+font-size: 24px;
+    margin: 0 0px 18px 4px;
+    padding: 42px 0 0 0;
+}
+
+.Article-container {
+  background-color: #fff;
+}
+
+.Article-comments textarea {
+min-height: 112px;
+}
+
+.Article-comments form input[type] {
+    margin: 5px 0 49px 0;
+    width: 265px;
+    height: 45px;
+    background-color: #ececec;
+    border-radius: 40px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.Article-comments form {
+padding: 0 0 48px 0;
+}
+
+.Article-comment-submit {
+    height: auto;
+}
+
+.Article-comment h2 {
+font-size: 15px;
+    font-family: "Graphik LCG-Black";
+        float: none;
+}
+
+.Article-comment h4 {
+    text-align: left;
+}
+
+.Article-comment p {
+      margin: 0 0 35px -45px;
+          width: 110%;
+}
+
+.Article-comment-submit form input[type] {
+    margin: 5px 0 49px -46px;
+}
+
+}

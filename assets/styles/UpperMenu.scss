@@ -1,0 +1,118 @@
+.UpperMenu {
+	height: 100%;	
+
+}
+
+.UpperMenu-left {
+	position:fixed;
+	left:0;
+	height: 100%;
+	width: 280px;
+	z-index:4; 
+	top:0px;
+	transition-duration: 210ms;
+    transform: translate3d(-320px, 0px, 0px);
+    padding: 20px;
+	background-color: #282828;
+
+}
+
+.UpperMenu-left-show {
+	position:fixed;
+	left:0;
+	height: 100%;
+	width: 280px;
+	z-index:4; 
+	top:0px;
+	padding: 20px;
+	transition-duration: 210ms;
+    transform: translate3d(0px, 0px, 0px);
+    	background-color: #282828;
+}
+
+.UpperMenu-close {
+width: 25px;
+height: 25px;
+position: absolute;
+top:20px;
+right: 20px;
+background: #282828 url(../images/right-menu-icon.png) -23px -10px no-repeat;
+background-size: 79px;
+
+}
+.UpperMenu a {
+	display: block;
+	width:100%; 
+	margin:0; 
+	padding:0px 0px; 
+	border-top:solid 2px #2f2f2f; 
+	border-bottom:solid 2px #2f2f2f; 
+	cursor:pointer; 
+	height: 63px;
+	color: #c0c0c0;
+	text-decoration: none;
+	position: relative;
+}
+
+.UpperMenu a:first-of-type {
+	margin-top: 50px;
+	border-top:solid 3px #2f2f2f;
+}
+.UpperMenu a span {
+
+	position: absolute;
+    top: 23px;
+    left: 10px;
+
+}
+
+div.UpperMenu a.basket {
+	border-bottom: 0;
+		background: #282828 url(../images/right-menu-icon.png) -13px -138px no-repeat;
+	background-size: 79px;
+}
+
+div.UpperMenu a.basket span:first-of-type {
+left:40px;
+}
+
+div.UpperMenu a span.basket-count {
+    right: 10px;
+        left: initial;	
+}
+
+div.UpperMenu a.LOG-IN {
+	width: 140px;
+	display: block;
+	height: 40px;
+	border-radius:25px;
+	border: solid 3px #2f2f2f;
+	bottom: 60px;
+	position: absolute;
+	background: #282828 url(../images/right-menu-icon.png) -5px -71px no-repeat;
+	background-size: 79px;
+}
+
+div.UpperMenu a.LOG-IN span {
+    top: 12px;
+right: 30px;
+left: initial;
+}
+
+div.UpperMenu a.LANG {
+	width: 50px;
+	display: block;
+	height: 40px;
+	border-radius:25px;
+	border: solid 3px #2f2f2f;
+	bottom: 60px;
+	position: absolute;	
+	background: black;
+	left: initial;
+	right: 20px;
+}
+
+div.UpperMenu a.LANG span {
+ top: 12px;	
+}
+

@@ -1,0 +1,36 @@
+body, button, input, textarea, select
+{
+	font-size   : 20pt;
+}
+
+.language button
+{
+	font-size   : 18pt;
+}
+
+.logo
+{
+    margin-right: 4em;
+
+	font-size   : 26pt;
+}
+
+.page
+{
+	transform: none !important;
+}
+
+.menu
+{
+	display: inline-block;
+}
+
+.menu-collapsible
+{
+	display: none;
+}
+
+.language
+{
+	right : 0.5em;
+}
